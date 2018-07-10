@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic JavaScript Dump</title>
+    <style>
+        .fancy{
+            font-size: 150px;
+            color:red; 
+            background-color: black;
+        }
+    </style>
+
+</head>
+    <body>
+
+         <!-- We created an empty HTML div. Note that there is no content inside. -->
+    <div id="empty-div"></div>
+
+    <script type="text/javascript">
+        var newDiv= document.getElementById("empty-div");
+        newDiv.textContent="Hello Friends";
+
+        var newLine=document.createElement("div");
+            newLine.textContent="Pleasure to meet you";
+
+        newDiv.appendChild(newLine);
+        newDiv.setAttribute("class",fancy)
+        
+    </script>
+
+</body>
+</html>
